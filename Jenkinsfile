@@ -13,7 +13,7 @@ pipeline {
         stage('Preparación del proyecto y clonación') {
             steps {
                 // Clonar el repositorio
-                git url: 'https://github.com/renzzoupia/app-la-panca.git', branch: 'main'
+                git url: 'https://github.com/Richi02/MONISSIMAS.git', branch: 'main'
                 // Otorga permisos de ejecución al archivo gradlew
             }
         }
